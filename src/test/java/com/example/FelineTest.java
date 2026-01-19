@@ -16,19 +16,19 @@ public class FelineTest {
     }
 
     @Test
-    public void shouldReturnCorrectPredatorFoodWhenCalledEatFood() throws Exception {
+    public void shouldReturnCorrectPredatorFoodWhenCalledEatFoodTest() throws Exception {
         List<String> actualFood = feline.eatMeat();
         assertEquals(List.of("Животные", "Птицы", "Рыба"), actualFood);
     }
 
     @Test
-    public void shouldReturnFelineFamilyWhenGetFamily() {
+    public void shouldReturnFelineFamilyWhenGetFamilyTest() {
         String actualFamily = feline.getFamily();
         assertEquals("Кошачьи",actualFamily);
     }
 
     @Test
-    public void shouldReturnOneKittenWhenGetKittensWithoutParams() {
+    public void shouldReturnOneKittenWhenGetKittensWithoutParamsTest() {
         int kittens = feline.getKittens();
         assertEquals(1, kittens);
     }

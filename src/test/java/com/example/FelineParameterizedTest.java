@@ -28,7 +28,7 @@ public class FelineParameterizedTest {
     }
 
     @Test
-    public void getReturnKittensCountWhenGetCountTakeParamsAndCalled() {
+    public void getKittensShouldReturnPassedValueTest() {
         Feline feline = new Feline();
         int actualKittensCount = feline.getKittens(kittensCount);
         assertEquals(kittensCount, actualKittensCount);

@@ -22,7 +22,7 @@ public class LionParameterizedTest {
         };
     }
     @Test
-    public void doesHaveManeShouldReturnCorrectValue() throws Exception {
+    public void doesHaveManeShouldReturnCorrectValueTest() throws Exception {
         Feline feline = new Feline();
         Lion lion = new Lion(sex, feline);
         boolean hasMane = lion.doesHaveMane();
